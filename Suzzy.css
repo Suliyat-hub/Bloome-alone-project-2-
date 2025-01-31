@@ -1,0 +1,270 @@
+
+      @media
+     (prefered-reduce-motion: no preference){
+     *scroll-behavior: smooth;
+     }
+      
+body{
+   background-image: linear-gradient(to left, #f36e29cd, #f31478cd);
+   font-family: 'Titillium web', serif;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   text-shadow: 0 -1px 3px #3b4030;
+}
+
+section {
+    width:100%;
+}
+header{
+    background-image: linear-gradient(to right, #f36e29cd, #f31478cd);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+    padding-inline-start:0;
+    over-flow: hidden;
+    position: fixed;
+    }
+    
+    #logo {
+   width: max(70px, 25vw); 
+   aspect-ratio: 16/6;
+   padding: 0.2rem;
+  height:50px;
+}
+
+.img {
+    weight: 70%;
+    height: 250px;
+    padding-bottom: 0;
+}
+
+   .home{
+      Font-family: 'Titillium web', serif;
+      margin-top: 60px;
+      padding: 25px;
+      weight: 100%;
+      text-align: center;
+      background-size: cover;
+    }
+    
+.H1 {
+    padding:70px 0 0;
+}
+
+.sp{
+    Font-family: "Titillium", serif;
+    font-weight: 800;
+}
+
+
+#MK{
+    text-align: center;
+}
+.container{
+  text-align: center;
+}
+
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    color: fff;
+    display: flex;
+    margin: 0 12px 0;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: 600;
+}
+nav > ul > li:hover {
+    background-color: #252422;
+    padding: 5px 2px 2px;
+    cursor: pointer;
+}
+
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+div > field {
+    Font-family: 'san-serif;
+    margin: 100px auto 0;
+    border-radius:5px;
+    padding-bottom: 0px;
+    width: 250px;
+    height:100px;
+    }
+    
+    .fieldset {
+    margin: 10px auto 30px;
+    weight:25%;
+    height: 50px;
+    border: 3.5px solid #Fdec3d;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    line-height: 2.1;
+    }
+    
+  .services{
+      background-color: #2528dd9d;
+      background-size: cover;
+      margin-top: 0px;
+      padding: 30px;
+      display: inline-block;
+      color:#fff;
+  }
+    
+    h2{
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-color: #ffeaea;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 0.5rem;
+    }
+#services > h2 > span{
+    padding-top:20px;
+    font-size: Larger;
+    }
+
+span > p {
+    background-color: #d3ed28c8;
+    color: #000;
+    padding-inline-start: 3px;
+    font-size: 1.2rem;
+}
+div > ul{
+    padding-inline-start: -25px;
+    text-align: left;
+}
+
+div > li {
+    list-style: none;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: left;
+    justify-content: left;
+}
+
+#pricing{
+    color:#fff;
+}
+#pricing > span {
+    border-bottom: 2px solid #fff;
+    
+}
+.pricing{
+    background-image: linear-gradient(to left, #40a1ff, #ff2bdc);
+    background-size: cover;
+    padding: 30px;
+    margin: 0;
+    weight: 100%;
+    
+}
+
+.cost {
+    background-color: #FDEC3D;
+    color: #000;
+    padding-inline-start: 1.3px;
+    width: 84%;
+}
+
+.h3{
+    text-align: center;
+    text-size: bolder;
+}
+
+.packages{
+    display: flex;
+    horizontal-align: left;
+    margin: 0px auto 0px;
+    gap: 0.8px;
+}
+
+.packageA {
+    justify-content: space-between;
+    width: 7.5rem;
+    border: 1.5px solid #03A9F5;
+    border-radius: 4px;
+    padding-bottom: 15px;
+}
+
+.packageA ul{
+    margin: 0;
+    padding: 0;
+}
+
+.packageA > ul > li {
+    list-style:none;
+    text-align: center;
+    text-size: 0.7rem;
+}
+
+.packageA > ul > .money{
+    font-weight: bolder;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.packageB {7.5rem;
+    border: 1.5 solid #03A9F5;
+    font-weight: 600;
+    weight: 100%;
+    heigh: 20px;  
+    font-size: 1rem;
+    margin-top: -20px;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    width:
+}
+
+.packageB > h5 {
+    margin-top: 0px;
+}
+
+h4{
+    font-family: san-serif;
+    font-size: small;
+    text-align: center;
+    background-color: #FDEC3D;
+    color: #000;
+    width: 100%;
+    margin: 50px auto 2px;
+    padding:10px;
+    letter-spacing: 0.7rem;
+    justify-content: center;
+    display: block;
+}
+
+.label {
+    text-align: center;
+    color: #fff;
+}
+
+label{
+    color: #fff;
+    font-weight: bolder;
+}
+
+address{
+    text-align: center;
+}
+
+footer {
+    background-color: 252422;
+    background-size: cover;
+    height: 40;
+    display: flex;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
